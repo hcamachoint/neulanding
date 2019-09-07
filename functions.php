@@ -278,6 +278,10 @@ function learningWordPress_customize_css() { ?>
       }
     }
 
+    .spacev{
+      margin-bottom: 10px;
+    }
+
 
 	</style>
 
