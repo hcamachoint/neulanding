@@ -15,7 +15,7 @@
 
       <nav class="navbar navbar-dark bg-nav navbar-expand-md static-top">
         <div class="container">
-          <h2 style="color:#000"><a href="/"><img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" height="100px"/></a></h2>
+          <h2 style="color:#000"><a href="/"><img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" height="70px"/></a></h2>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>

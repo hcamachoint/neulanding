@@ -41,7 +41,7 @@ function customizable_colors( $wp_customize ) {
 	));
 
 	$wp_customize->add_setting('bg-nav', array(
-		'default' => '#006ec3',
+		'default' => '#fff',
 		'transport' => 'refresh',
 	));
 
@@ -199,7 +199,6 @@ add_action('customize_register', 'customizable_colors');
 function learningWordPress_customize_css() { ?>
 
 	<style type="text/css">
-
 		.bg-nav {
 			background: <?php echo get_theme_mod('bg-nav'); ?>!important;
 		}
@@ -224,9 +223,17 @@ function learningWordPress_customize_css() { ?>
     }
 
     .navbar{
-      -webkit-box-shadow: 0 8px 6px -6px #999;
-      -moz-box-shadow: 0 8px 6px -6px #999;
-      box-shadow: 0 8px 6px -6px #999;
+      -webkit-box-shadow: 0 8px 6px -3px #999;
+      -moz-box-shadow: 0 8px 6px -3px #999;
+      box-shadow: 0 8px 6px -3px #999;
+    }
+
+    .nav-link{
+      color: #999!important;
+    }
+
+    .nav-link:hover{
+      color: #000!important;
     }
 
     .navbar-toggler{
