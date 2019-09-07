@@ -282,6 +282,17 @@ function learningWordPress_customize_css() { ?>
       margin-bottom: 10px;
     }
 
+    p {
+      margin:0;
+      padding:0;
+      border:0;
+      font-size:110%;
+      font:inherit;
+      font-family: antonio;
+      vertical-align:baseline;
+      text-align: justify;
+    }
+
 
 	</style>
 
