@@ -1,15 +1,9 @@
 <footer class="footer bg-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6" align="left">
-				<span class="text-muted">&#9400; <?php bloginfo('name'); ?> Website</span>
-			</div>
-			<div class="col-md-6" align="right">
-				<div style="margin-top:15px">
-					<?php get_sidebar('footer'); ?>
-				</div>
-			</div>
+	<div class="container" align="center">
+		<div style="margin-top:20px;margin-bottom:-20px">
+			<?php get_sidebar('footer'); ?>
 		</div>
+		<span class="text-muted">&#9400; <?php bloginfo('name'); ?> Website</span>
 	</div>
 </footer>
 		<?php wp_footer(); ?>
